@@ -25,7 +25,7 @@ header{
 
 .pizza-two{
     width: 380px;
-    height: 120px;
+    height: 80px;
     flex-shrink: 0;
     margin-top: 5px;
 }
@@ -151,14 +151,14 @@ header{
 .menu-div{
     position: relative;
     left: 88px;
-    margin: 20% 0%;
+    margin: 30% 0%;
     height: 250px;
     display: flex;
     align-items: center;
     padding: 20px;
 }
 .menu-img{
-    width: 30%;  
+    width: 10%;  
 }
 .menu-info{
     position: absolute;
