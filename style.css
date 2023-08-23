@@ -19,14 +19,14 @@ header{
 .pizza-one{
     width: 318px;
     height: 141px;
-
+    flex-shrink: 0;
     margin-top: 5px;
 }
 
 .pizza-two{
     width: 380px;
-    height: 141px;
-
+    height: 131px;
+    flex-shrink: 0;
     margin-top: 5px;
 }
 
@@ -151,14 +151,14 @@ header{
 .menu-div{
     position: relative;
     left: 88px;
-    margin: 10% 0%;
+
     height: 250px;
     display: flex;
     align-items: center;
     padding: 20px;
 }
 .menu-img{
-    width: 30%;  
+    width: 40%;  
 }
 .menu-info{
     position: absolute;
