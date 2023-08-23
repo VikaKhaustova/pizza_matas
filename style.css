@@ -1,0 +1,290 @@
+html{
+    zoom: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;        
+}
+header{
+    height: 121px;
+    margin-top: 70px;
+    width: 100%;
+    background: linear-gradient(168deg, #CB4747 0%, #FFD705 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pizza-one{
+    width: 318px;
+    height: 141px;
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+.pizza-two{
+    width: 380px;
+    height: 141px;
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+.logo{
+    color: #F00;
+    font-family: Roboto;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: -4px 2px black,  -8px 4px white;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 528px;
+    left: 0px;
+    top: 50px;
+}
+.info-img{
+    position: absolute;
+    width: 40%;
+    left: 55%;
+}
+.info-div{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background: linear-gradient(135deg, #F00 0%, #FFD705 98.44%);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    border: 2px solid rgb(97, 0, 0);
+    box-shadow: 0 5px 0 0 rgb(97, 0, 0);
+}
+.call-butt:hover{
+    background: linear-gradient(135deg,  #FFD705 0%, #F00 98.44% );
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+.menu-butt{
+   background: linear-gradient(135deg, #F00 0%, #FFD705 98.44%);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    border: 2px solid rgb(97, 0, 0);
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    position: relative;
+    box-shadow: 0 5px 0 0 rgb(97, 0, 0);
+   
+}
+.menu-butt:hover{
+    background: linear-gradient(135deg,  #FFD705 0%, #F00 98.44% );
+    color: #FFFFFF;
+    transition: 0.2s ease-out;
+}
+
+.menu-butt:focus {
+    box-shadow: inset 0 5px 0 2px rgb(97, 0, 0);
+    color: black;
+    top: 10px; 
+    transition: 0.5s ease-out;
+}
+
+.call-butt:focus {
+    box-shadow: inset 0 5px 0 2px rgb(97, 0, 0);
+    color: black;
+    top: 10px; 
+    transition: 0.5s ease-out;
+}
+
+
+.menu{
+    position: relative;
+    width: 100%;
+    padding-bottom: 170px;
+    margin-bottom: 0;
+    left: 0px;
+    top:0;
+    background: linear-gradient(135deg, #F00 0%, #FFD705 100%);
+}
+
+.menu h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow:  10px 4px #FFD705;
+    text-align: center;
+}
+
+.all-divs-menu{
+    background-color: white;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 20% 0%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.menu-img_one{
+    width: 176px;
+    height: 168px;
+   
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+    height: 200px;
+   
+}
+.menu-info h3{
+    color: #000;
+    font-family: Roboto;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.menu-text{
+   
+    color: #000;
+    font-family: Roboto;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+    background: linear-gradient(135deg, #F00 0%, #FFD705 100%);
+    
+}
+.about-div{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://i.ibb.co/HXfYYKy/image.png);
+    margin-bottom: 60px;
+    background-size: cover;  
+}
+.about-div p{
+    position: absolute;
+    width: 60%;
+    height: 273px;
+    left: 87px;
+    font-size: 25px;
+    top: 187px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-shadow: 1px 1px black;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.about h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow:  10px 4px #FFD705;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    padding: 50px;
+    justify-content: center;
+    background: linear-gradient(135deg, #F00 0%, #FFD705 100%);
+}
+
+
+footer h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow:  10px 4px #FFD705;
+    text-align: center;
+}
+.socials{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px white;
+ 
+}
+.footer-info h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 1px 1px white;   
+}
+
+.footer-info p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-content{
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-img{
+    width: 100px;
+    height: 100px;
+    margin-right: 6%;
+}
